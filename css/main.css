@@ -1,0 +1,383 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  /* color: white; */
+}
+
+.clr {
+  clear: both;
+}
+
+/* ------start of navbar--------- */
+.navbar {
+  background-color: rgba(79, 169, 185, 0.514);
+  width: 100%;
+  position: fixed;
+  height: 80px;
+}
+
+.brandname {
+  float: left;
+  width: 30%;
+  margin: 25px 0 0 120px;
+}
+
+.logo {
+  font-size: 32px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.logo span {
+  font-size: 32px;
+  color: #02faee;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.links {
+  width: 40%;
+  float: right;
+}
+
+.list {
+  float: left;
+  padding: 30px 0 0 40px;
+}
+
+.list a {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+/* ------start of navbar--------- */
+
+/* ------ home image ------------- */
+.imghome {
+  background-image: url(../img/1st-section.jpg);
+  background-size: cover;
+  height: 130vh;
+}
+
+/* --------home text on image------ */
+
+.texthome {
+  float: left;
+  margin: 250px 0 0 420px;
+  text-align: center;
+  color: white;
+}
+
+.texthome h1 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 15px;
+}
+
+.texthome span {
+  color: #02faee;
+}
+
+.texthome p {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+/* ---end of home text------ */
+
+/* .formm {
+  background-color: white;
+} */
+
+/* ------start  of about------ */
+
+.about {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.img-text {
+  width: 100%;
+}
+
+.text {
+  float: left;
+  width: 40%;
+  padding: 50px 30px 0 100px;
+}
+
+.text p {
+  line-height: 2rem;
+  margin-top: 1.8rem;
+}
+
+.img1 {
+  float: right;
+  width: 50%;
+}
+
+.img1 img {
+  width: 650px;
+  height: 350px;
+}
+
+/* ----end of about */
+
+/* ------start of explore------------ */
+
+.explore {
+  background-image: linear-gradient(
+    360deg,
+    rgb(233, 233, 233),
+    rgba(39, 167, 190, 0.651)
+  );
+}
+
+.ex {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  padding: 70px 0 70px 0;
+}
+
+.explore p {
+  line-height: 2rem;
+  margin-top: 1.8rem;
+}
+
+.explore h2 {
+  padding-top: 70px;
+}
+
+.vid {
+  float: right;
+  width: 50%;
+}
+
+.vid video {
+  width: 650px;
+  height: 450px;
+  margin-bottom: 100px;
+}
+
+/* ----end of explore----- */
+
+/* -----start of blog---------- */
+
+.bl {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding: 30px 0 70px 0;
+}
+
+.cards {
+  width: 100%;
+  /* background-color: blue; */
+  margin: 150px auto 0;
+}
+
+.bcard {
+  width: 30%;
+  background-color: rgb(233, 233, 233);
+  float: left;
+
+  margin: 0 0 50px 50px;
+}
+
+.blog .cards img {
+  width: 90%;
+  height: 300px;
+  padding: 20px;
+}
+
+.blog h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.blog p {
+  padding: 20px;
+}
+
+.blog a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+.card-body {
+  margin-bottom: 30px;
+}
+
+/* --------end of blog-------- */
+
+/* ------start of  offer--------- */
+
+.offer {
+  background-image: linear-gradient(
+    360deg,
+    rgb(233, 233, 233),
+    rgba(39, 167, 190, 0.651)
+  );
+}
+
+.of {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding: 30px 0 70px 0;
+}
+
+.offer .btn {
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+}
+
+.card-body {
+  margin: 20px;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-body h5 {
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.card-body h5 span {
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.star {
+  color: #02faee;
+  margin: 5px 0px;
+}
+
+.cardoffer {
+  width: 100%;
+  /* background-color: blue; */
+  margin: 150px auto 0;
+}
+
+.cardoff {
+  width: 30%;
+  background-color: rgb(250, 250, 250);
+  float: left;
+  margin: 0 0 50px 50px;
+}
+
+.offer .cardoffer .cardoff img {
+  width: 100%;
+  height: 300px;
+}
+
+/* ------end of  offer--------- */
+
+/* ------ start of contact--------- */
+
+.co {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding: 30px 0 70px 0;
+}
+
+.d-flex {
+  width: 80%;
+  margin: auto;
+}
+
+.name {
+  float: left;
+  width: 45%;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.subjectcont {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.subject {
+  padding: 20px;
+  width: 96.5%;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+.messagecont {
+  width: 80%;
+  margin: auto;
+  /* padding: 10px; */
+  margin-bottom: 25px;
+}
+
+.message {
+  width: 96.5%;
+  border-radius: 4px;
+  padding: 30px 20px;
+}
+
+.btn {
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.contact-body a {
+  color: white;
+}
+
+/* ------ end of contact--------- */
+
+/* ------start of footer--------- */
+
+.foter {
+  background-color: #333333;
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 155px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 25px;
+}
+
+.a-foter {
+  color: #02faee;
+}
+
+/* ------end of footer--------- */
